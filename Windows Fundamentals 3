@@ -1,0 +1,54 @@
+Windows Fundamentals 3
+
+TASK 2
+
+There were two definition updates installed in the attached VM. On what date were these updates installed?
+5/3/2021
+
+TASK 3
+
+Checking the Security section on your VM, which area needs immediate attention?
+Virus & threat protection
+
+TASK 4
+
+Specifically, what is turned off that Windows is notifying you to turn on?
+Real-time protection
+
+TASK 5
+
+If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
+Public network
+
+TASK 6
+
+What is the TPM?
+Trusted Platform Module
+
+TASK 7
+
+We should use a removable drive on systems without a TPM version 1.2 or later. What does this removable drive contain?
+startup key
+
+TASK 9
+
+What is VSS?
+Volume Shadow Copy Service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
