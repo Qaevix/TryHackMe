@@ -1,0 +1,57 @@
+Networking Core Protocols
+
+TASK 2
+
+Which DNS record type refers to IPv6?
+AAAA
+
+Which DNS record type refers to the email server?
+MX
+
+TASK 3
+
+When was the x.com record created? Provide the answer in YYYY-MM-DD format.
+1993-04-02
+
+When was the twitter.com record created? Provide the answer in YYYY-MM-DD format.
+2000-01-21
+
+TASK 4
+
+Use telnet to access the file flag.html on MACHINE_IP. What is the hidden flag?
+THM{TELNET-HTTP}
+
+TASK 5
+
+Using the FTP client ftp on the AttackBox, access the FTP server at MACHINE_IP and retrieve flag.txt. What is the flag found?
+THM{FAST-FTP}
+
+TASK 6
+
+Which SMTP command indicates that the client will start the contents of the email message?
+DATA
+
+What does the email client send to indicate that the email message has been fully entered?
+.
+
+TASK 7
+
+Looking at the traffic exchange, what is the name of the POP3 server running on the remote server?
+Dovecot
+
+Use telnet to connect to MACHINE_IP’s POP3 server. What is the flag contained in the fourth message?
+THM{TELNET_RETR_EMAIL}
+
+TASK 8
+
+What IMAP command retrieves the fourth email message?
+FETCH 4 body[]
+
+
+
+
+
+
+
+
+
