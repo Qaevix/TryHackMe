@@ -1,0 +1,62 @@
+Public Key Cryptography Basics
+
+TASK 2
+
+In the analogy presented, what real object is analogous to the public key?
+lock
+
+TASK 3
+
+Knowing that p = 4391 and q = 6659. What is n?
+29239669
+
+Knowing that p = 4391 and q = 6659. What is ϕ(n)?
+29228620
+
+TASK 4
+
+Consider p = 29, g = 5, a = 12. What is A?
+7
+
+Consider p = 29, g = 5, b = 17. What is B?
+9
+
+Knowing that p = 29, a = 12, and you have B from the second question, what is the key calculated by Bob? (key = Ba mod p)
+24
+
+Knowing that p = 29, b = 17, and you have A from the first question, what is the key calculated by Alice? (key = Ab mod p)
+24
+
+TASK 5
+
+Check the SSH Private Key in ~/Public-Crypto-Basics/Task-5. What algorithm does the key use?
+RSA
+
+TASK 6
+
+What does a remote web server use to prove itself to the client?
+Certificate
+
+What would you use to get a free TLS certificate for your website?
+Let's Encrypt
+
+TASK 7
+
+Use GPG to decrypt the message in ~/Public-Crypto-Basics/Task-7. What secret word does the message hold?
+Pineapple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
