@@ -1,0 +1,19 @@
+Scheme Cather | TryHackMe | CTF | Difficulty = HARD | 
+
+--- TASK 1 ---
+
+1) What is the flag hidden in the file?
+
+ANS: THM{Welcom3_to_th3_eastmass_pwnland}
+
+2) What is the content of foothold.txt?
+
+ANS: THM{byp4ss_and_pack_is_pwn_you_n33d}
+
+3) What is the content of user.txt?
+
+ANS: THM{theres_someth1g_in_th3_w4t3r_that_cannot_l3ak}
+
+4) What is the content of root.txt?
+
+ANS: THM{final-boss_defeat3d-yay}
