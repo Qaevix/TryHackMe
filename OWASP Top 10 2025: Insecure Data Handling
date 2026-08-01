@@ -1,0 +1,18 @@
+OWASP Top 10 2025: Insecure Data Handling
+
+TASK 2
+
+Decrypt the encrypted notes. One of them will contain a flag value. What is it?
+THM{WEAK_CRYPTO_FLAG}
+
+TASK 3
+
+Perform an SSTI attack on the practical. You need to read the contents of flag.txt that is located within the same directory as the web application.
+THM{SSTI_FLAG_OBTAINED}
+
+TASK 4
+
+Use Python to pickle a malicious, serialised payload that reads the contents of flag.txt and submits it to the application.
+What are the contents of flag.txt?
+THM{INSECURE_DESERIALIZATION}
+
