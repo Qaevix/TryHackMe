@@ -1,0 +1,19 @@
+Hack Back
+
+TASK 1
+
+Are there any credentials present on the suspicious file? If yes, what is the username/email?
+phisher@berrybears.ioc
+
+Are there any credentials present on the suspicious file? If yes, what is the password?
+1mTh3L33tH@x0r!
+
+TASK 2
+
+What is the root flag?
+THM{TIME_TO_GET_BACK_THE_MONEY}
+
+TASK 3
+
+What is the final flag?
+THM{HELLO_WEB3}
