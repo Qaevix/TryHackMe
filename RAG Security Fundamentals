@@ -1,0 +1,38 @@
+RAG Security Fundamentals
+
+TASK 2
+
+What numerical representation is used to capture the meaning of text in RAG systems?
+Embeddings
+
+Which component selects the documents for the LLM?
+Retriever
+
+TASK 3
+
+Which RAG stage introduces the largest indirect attack surface?
+Retrieval
+
+What component is lost during embedding generation that affects security?
+Context
+
+TASK 4
+
+What retrieval abuse technique involves crafting malicious content so it ranks highly for sensitive queries?
+Active Manipulation
+
+What does retrieval select documents based on?
+Semantic Relevance
+
+TASK 5
+
+In the Web-Connected AI Assistants cases, failures were caused by governance gaps in what specific part of the system?
+Retrieval Pipeline
+
+TASK 6
+
+What type of monitoring is a useful way to detect RAG poisoning?
+Behavioural
+
+What does output drift reflect instead of a sudden failure?
+Gradual Influence
