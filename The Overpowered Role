@@ -1,0 +1,24 @@
+The Overpowered Role
+
+TASK 2
+
+What is one of the misconfigurations that led to the data breach and is the main theme of this room?
+over-privileged instance role
+
+TASK 3
+
+What is the name of the other policy attached to the instance role?
+AmazonSSMManagedInstanceCore
+
+Which flag was retrieved from the financial bucket?
+THM{YIPEE_KI_YAY}
+
+TASK 4
+
+What is the flag for this task?
+THM{EN_TARO_ADUN}
+
+TASK 5
+
+What is the flag for this task?
+THM{CARRIER_HAS_ARRIVED}
