@@ -1,0 +1,19 @@
+Juicy Details
+
+TASK 2
+
+What tools did the attacker use? (Order by the occurrence in the log)
+nmap, hydra, sqlmap, curl, feroxbuster
+
+What endpoint was vulnerable to a brute-force attack?
+/rest/user/login
+
+What endpoint was vulnerable to SQL injection?
+/rest/products/search
+
+What parameter was used for the SQL injection?
+q
+
+What endpoint did the attacker try to use to retrieve files? (Include the /)
+/ftp
+
