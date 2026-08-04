@@ -1,0 +1,56 @@
+AppSec IR
+
+TASK 2
+
+Which tool type analyses logs and aggregates security events across applications?
+SIEM
+
+Which IR phase focuses on deploying emergency WAF rules to stop an ongoing exploit?
+Containment
+
+TASK 3
+
+Which approach reduces the likelihood of serious application incidents occurring?
+Secure by Design
+
+Which OWASP Top 10 category highlights the risk of poor observability in applications?
+A09: Security Logging and Monitoring Failures
+
+What type of document outlines step-by-step actions to contain and respond to specific security incidents?
+IR Playbooks
+
+TASK 4
+
+What is a common detection method involving incentivising third parties to find vulnerabilities?
+Bug Bounty
+
+What specific mechanism allows a vulnerable feature to be disabled instantly without redeploying the application?
+Feature Flag
+
+What type of tool is commonly used to block specific malicious traffic patterns or IP addresses during an incident?
+WAF
+
+TASK 5
+
+A developer will push a ______ in order to patch the vulnerability and close the security hole.
+hotfix
+
+Routes disabled during the ___________ phase can now be re-enabled during the restoration phase.
+Containment
+
+The process of discussing what lessons can be learned from this incident going forward is called what?
+Post-mortem
+
+Following this process, what should be produced?
+Incident Report
+
+TASK 6
+
+Can you investigate the incident, confirm the presence of an application vulnerability, and then answer all the questions to obtain the flag?
+THM{AppS3c_Inc1d3NT_R3sp0Nder}
+
+
+
+
+
+
