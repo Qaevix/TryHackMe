@@ -1,0 +1,48 @@
+The Greenholt Phish
+
+TASK 1
+
+What is the Transfer Reference Number listed in the email's Subject line?
+09674321
+
+What is the display name of the sender?
+Mr. James Jackson
+
+Continue investigating the email headers.
+What is the sender's email address?
+info@mutawamarine.com
+
+What email address will receive a reply to this email?
+info.mutawamarine@mail.com
+
+Begin analyzing the message source.
+What is the originating IP address of this email?
+192.119.71.157
+
+Investigate the IP address from the previous question.
+Who is the owner of the originating IP?
+HostPapa
+
+Run an SPF record check on the Return-Path domain identified in the email headers.
+What is the full SPF record for this domain?
+v=spf1 include:spf.protection.outlook.com -all
+
+Perform a DMARC lookup for the Return-Path domain found in the email headers.
+What is the complete DMARC record for this domain?
+v=DMARC1; p=quarantine; fo=1
+
+What is the file name of the attachment found in the email?
+SWT_#09674321____PDF__.CAB
+
+Download the attachment to your virtual environment.
+Using the sha256sum command, what is the SHA256 hash of the file?
+2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f
+
+Investigate the file hash from the previous question using VirusTotal (opens in new tab).
+What is the attachment's file size in KB (e.g., 122.31 KB)?
+400.26 KB
+
+Continue your research on the file.
+What is the actual file type of the attachment?
+RAR
+
