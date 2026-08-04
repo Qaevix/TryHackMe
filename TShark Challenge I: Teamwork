@@ -1,0 +1,25 @@
+TShark Challenge I: Teamwork
+
+TASK 2
+
+What is the full URL of the malicious/suspicious domain address?
+Enter your answer in defanged format.
+hxxp[://]www[.]paypal[.]com4uswebappsresetaccountrecovery[.]timeseaways[.]com/
+
+When was the URL of the malicious/suspicious domain address first submitted to VirusTotal?
+2017-04-17 22:52:53 UTC
+
+Which known service was the domain trying to impersonate?
+PayPal
+
+What is the IP address of the malicious domain?
+Enter your answer in defanged format.
+184[.]154[.]127[.]226
+
+What is the email address that was used?
+Enter your answer in defanged format. (format: aaa[at]bbb[.]ccc)
+johnny5alive[at]gmail[.]com
+
+Congratulations! You have finished the first challenge room, but there is one more ticket before calling it out a day!
+TShark Challenge II: Directory
+No answer needed
