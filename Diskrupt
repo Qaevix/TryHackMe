@@ -1,0 +1,40 @@
+Diskrupt
+
+TASK 1
+
+What are the corrupted bytes in the boot sector that caused the disk to be damaged?
+ACBD
+
+What are the bytes representing the total sector of the second partition? (Little Endian)
+0x01387800
+
+What is the size of the first partition in GB? (up to 2 decimals e.g: 15.25)
+30.23
+
+What is the size of the second partition in GB? (up to 2 decimals e.g: 15.25)
+9.76
+
+In the NTFS partition, when was the text file related to the password created on the system?
+2025-03-19 22:01:57
+
+What is the full name of the sensitive pdf document accessed on this disk?
+Quantum-Resistant Cryptographic Algorithms.pdf
+
+When this file was first found on this disk?
+2025-03-20 00:44:37
+
+What is the entry number of the directory in the Journal that was created and then deleted for exfiltration purposes on the disk?
+163896
+
+What is the starting offset of the first zip file found after the offset 4E7B00000?
+4E7B0E000
+
+What is the ending offset of the zip file?
+4E7B0E43D
+
+What is the flag hidden within the file inside the zip file?
+FLAG:{RECOVERED_SECRET_THM}
+
+In the FAT32 partition, a tool related to the disk wiping was installed and then deleted. Can you find the name of that executable?
+diskwipe.exe
+
