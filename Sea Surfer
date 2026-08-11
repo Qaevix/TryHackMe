@@ -1,0 +1,10 @@
+Sea Surfer
+
+TASK 1
+
+What is user.txt?
+THM{SSRFING_TO_LFI_TO_RCE}
+
+What is root.txt?
+THM{STEALING_SUDO_TOKENS}
+
