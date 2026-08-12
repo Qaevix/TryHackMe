@@ -1,0 +1,65 @@
+AI Security Threats
+
+TASK 2
+
+What MITRE framework was developed specifically to map tactics and techniques used against AI systems?
+ATLAS
+
+What AI vulnerability occurs when user input overrides the original instructions provided to a model?
+Prompt injection
+
+What attack involves manipulating training data to cause a model to produce incorrect or biased outputs?
+Data poisoning
+
+What attack involves repeatedly querying a model's API to train a clone that replicates its behaviour?
+Model theft
+
+What term describes the gradual degradation of a model's performance as the environment it was trained on changes over time?
+Model drift
+
+What's the flag?
+THM{pr0mpt_1nj3ct10n_pwn3d}
+
+TASK 3
+
+What AI technique is used to generate convincing replicas of a person's voice or appearance?
+Deepfakes
+
+What common initial access method has become significantly harder to detect due to AI's ability to generate fluent, targeted content at scale?
+Phishing
+
+What is the flag?
+THM{s0c_1nb0x_cl34r3d}
+
+TASK 4
+
+According to IBM, how many days faster does AI help identify and contain breaches?
+108
+
+What Microsoft product is mentioned as an example of a security tool leveraging AI for analysis?
+Microsoft Defender for Endpoint
+
+What defensive AI capability involves feeding an LLM raw logs to help identify what happened during a security incident?
+Investigation
+
+What's the flag?
+THM{4eg1s_1nc1d3nt_z3r0}
+
+TASK 5
+
+According to IBM, what percentage of generative AI initiatives are currently secured?
+24%
+
+What access control model is recommended to restrict who can interact with AI systems?
+RBAC
+
+What ISO standard provides guidance on identifying and mitigating security threats specific to AI systems?
+ISO/IEC 27090
+
+TASK 6
+
+What's the flag?
+THM{4l_fund4m3nt4ls_l1c3ns3}
+
+
+
