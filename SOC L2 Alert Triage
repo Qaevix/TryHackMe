@@ -1,0 +1,30 @@
+SOC L2 Alert Triage
+
+TASK 2
+
+What is the most common trigger for L2 to start the triage?
+Escalated Alert
+
+TASK 3
+
+Should you understand the rule purpose before triaging the alert? (Yea/Nay)
+Yea
+
+What term is used for a chronological list of events (related to the attack)?
+Timeline
+
+TASK 4
+
+What is the term for a temporary response that stops the threat from spreading?
+Containment
+
+You see a clearly malicious activity on one of the corporate devices.
+You also know about an ongoing pentest, but red teamers do not respond.
+Would you isolate the device before receiving a confirmation? (Yea/Nay)
+Yea
+
+TASK 5
+
+What is the flag you get at the end of the challenge?
+THM{triage_done_right!}
+
