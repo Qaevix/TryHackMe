@@ -1,0 +1,61 @@
+Sensitive Information Disclosure
+
+TASK 2
+
+What OWASP category covers sensitive data exposure in LLM systems?
+LLM02
+
+TASK 3
+
+What mathematical mechanism determines which documents are retrieved in RAG systems?
+Similarity
+
+What retrieval parameter controls how many documents are returned?
+Top-k
+
+What CVE demonstrated zero-click prompt injection via retrieved content?
+EchoLeak
+
+TASK 4
+
+What mathematical metric is commonly used to measure similarity between embeddings?
+Cosine
+
+What attack attempts to reconstruct text from stored vectors?
+Inversion
+
+TASK 5
+
+What retrieval configuration change increases exposure surface by expanding the number of ranked chunks?
+Top-k
+
+TASK 6
+
+What logical grouping inside a vector database separates datasets?
+Namespace
+
+Which segmentation model provides the strongest isolation but at a higher cost?
+Per-tenant
+
+What type of enforcement operates before computation instead of after?
+Deterministic
+
+TASK 7
+
+What control removes sensitive data before embedding?
+Redaction
+
+What policy ensures deleted embeddings are removed from storage?
+Retention
+
+TASK 8
+
+What caused the assistant to expose confidential data?
+Broad Retrieval
+
+Why did Tom Russo's HR record appear when asking about benefits?
+Semantic Collision
+
+What control could have prevented the disclosure in Phase 2?
+Metadata Filtering 
+
