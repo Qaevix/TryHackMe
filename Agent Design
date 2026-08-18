@@ -1,0 +1,61 @@
+Agent Design
+
+TASK 2
+
+What defines agent behaviour before implementation?
+Agent design
+
+What do these questions reduce before implementation begins?
+Ambiguity
+
+What can a vague agent design create?
+Risk
+
+TASK 3
+
+What describes what the agent is responsible for?
+Role
+
+What should happen to a design choice if it allows the agent to act beyond investigation support?
+Rejected
+
+TASK 4
+
+What extends agent capability?
+Tools
+
+Should the agent be able to modify systems (yea/nay)?
+Nay
+
+TASK 5
+
+What tracks workflow progress?
+State
+
+What information is available to the model during a specific run?
+Context
+
+TASK 6
+
+Who owns the final decision?
+The engineer
+
+Should agents retry forever (yea/nay)?
+Nay
+
+What should missing evidence trigger?
+Human review
+
+TASK 7
+
+What must the agent use when the available evidence does not support a priority recommendation?
+Undetermined
+
+What should not replace supporting evidence?
+Confidence
+
+TASK 8
+
+What is the flag revealed?
+THM{agent_design_ready}
+
