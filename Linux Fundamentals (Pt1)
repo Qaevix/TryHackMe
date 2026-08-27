@@ -1,0 +1,37 @@
+Linux Fundamentals (Pt1)
+
+TASK 2
+
+What command would we use to find out who we are on the system?
+whoami
+
+
+What command would we use to output some text?
+echo
+
+TASK 3
+
+Run ls in the current folder. How many folders are there?
+4
+
+One of those folders contains a file. Which folder is it?
+folder1
+
+Use cat to read the file within this folder. What does it say?
+password123
+
+TASK 4
+
+After using grep THM access.log a flag was found. What is the flag?
+
+THM{ACCESS}
+
+TASK 5
+
+What operator waits for the first command to finish before running the next command?
+&&
+
+What redirector allows us to save the output of a command without overwriting the contents of a file?
+>>
+
+
