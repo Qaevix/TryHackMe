@@ -1,0 +1,70 @@
+Burp Suite: Intruder
+
+TASK 2
+
+In which Intruder tab can we define the "Attack type" for our planned attack?
+Positions
+
+TASK 3
+
+What symbol defines the start and the end of a payload position?
+§
+
+TASK 4
+
+Which Payload processing rule could we use to add characters at the end of each payload in the set?
+Add suffix
+
+TASK 5
+
+What attack type cycles through the payloads inserting one payload at a time into each position defined in the request?
+Sniper
+
+TASK 6
+
+If you were using Sniper to fuzz three parameters in a request with a wordlist containing 100 words, how many requests would Burp Suite need to send to complete the attack?
+300
+
+How many sets of payloads will Sniper accept for conducting an attack?
+1
+
+TASK 7
+
+What would the body parameters of the first request that Burp Suite sends be?
+username=admin&password=admin
+
+TASK 8
+
+What is the maximum number of payload sets we can load into Intruder in Pitchfork mode?
+20
+
+TASK 9
+
+How many requests will Intruder make using these payload sets in a Cluster bomb attack?
+6000
+
+TASK 10
+
+What username and password combination indicates a successful login attempt? The answer format is "username:password".
+m.rivera:letmein1
+
+TASK 11
+
+Which attack type is best suited for this task?
+Sniper
+
+Configure an appropriate position and payload (the tickets are stored at values between 1 and 100), then start the attack.
+You should find that at least five tickets will be returned with a status code 200, indicating that they exist.
+No answer needed
+
+Either using the Response tab in the Attack Results window or by looking at each successful (i.e. 200 code) request manually in your browser, find the ticket that contains the flag.
+What is the flag?
+THM{MTMxNTg5NTUzMWM0OWRlYzUzMDVjMzJl}
+
+TASK 12
+
+What username and password combination indicates a successful login attempt? The answer format is "username:password".
+o.bennett:bella1
+
+
+
