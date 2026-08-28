@@ -1,0 +1,61 @@
+Nmap Basic Port Scans
+
+TASK 2
+
+Which service uses UDP port 53 by default?
+DNS
+
+Which service uses TCP port 22 by default?
+SSH
+
+How many port states does Nmap consider?
+6
+
+Which port state is the most interesting to discover as a pentester?
+Open
+
+TASK 3
+
+What 3 letters represent the Reset flag?
+RST
+
+Which flag needs to be set when you initiate a TCP connection (first packet of TCP 3-way handshake)?
+SYN
+
+TASK 4
+
+What is the state of the FTP service running on port 21?
+open
+
+What is Nmap’s guess about the service running on port 53?
+domain
+
+TASK 5
+
+After launching a TCP SYN scan, how many SYN-ACK packets are successfully received in AttackBox?
+4
+
+How many ports are open on the target machine?
+4
+
+TASK 6
+
+What is the state of port number 161 over UDP in the target machine?
+closed
+
+What is the service name according to Nmap on port 161?
+snmp
+
+TASK 7
+
+What is the option to scan all the TCP ports between 5000 and 5500?
+-p5000-5500
+
+How can you ensure that Nmap will run at least 64 probes in parallel?
+--min-parallelism=64
+
+What option would you add to make Nmap very slow and paranoid?
+-T0
+
+
+
