@@ -1,0 +1,42 @@
+Burp Suite: Repeater
+
+TASK 2
+
+Which sections gives us a more intuitive control over our requests?
+Inspector
+
+TASK 3
+
+Which view will populate when sending a request from the Proxy module to Repeater?
+Request
+
+TASK 4
+
+Which option allows us to visualize the page as it would appear in a web browser?
+Render
+
+TASK 5
+
+Which section in Inspector is specific to POST requests?
+Body Parameters
+
+TASK 6
+
+What is the flag you receive?
+THM{Yzg2MWI2ZDhlYzdlNGFiZTUzZTIzMzVi}
+
+TASK 7
+
+Enable intercept again and capture a request to one of the numeric products endpoints in the Proxy module, then forward it to Repeater.
+No answer needed
+
+See if you can get the server to error out with a "500 Internal Server Error" code by changing the number at the end of the request to extreme inputs.
+What is the flag you receive when you cause a 500 error in the endpoint?
+THM{N2MzMzFhMTA1MmZiYjA2YWQ4M2ZmMzhl}
+
+TASK 8
+
+What is the flag?
+THM{ZGE3OTUyZGMyMzkwNjJmZjg3Mzk1NjJh}
+
+
