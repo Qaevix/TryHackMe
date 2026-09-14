@@ -1,0 +1,45 @@
+Nmap Post Port Scans
+
+Task 2
+
+What is the detected version for port 143?
+Dovecot imapd
+
+Which service did not have a version detected with --version-light? 
+rpcbind
+
+Task 3
+
+Per nmap, which one is the closest OS match after running with the nmap with -O option against MACHINE_IP? (Windows/Linux)
+Linux
+
+Task 4
+
+Knowing that Nmap scripts are saved in /usr/share/nmap/scripts on the AttackBox. What does the script http-robots.txt check for?
+disallowed entries
+
+Can you figure out the name for the script that checks for the remote code execution vulnerability MS15-034 (CVE-2015-1635)?
+http-vuln-cve2015-1635
+
+On the AttackBox, run Nmap with the default scripts -sC against MACHINE_IP. You will notice that a page is hosted on port 80. What is the http-title value?
+Welcome to nginx on Debian!
+
+Based on its description, the script ssh2-enum-algos “reports the number of algorithms (for encryption, compression, etc.) that the target SSH2 server offers.” What is the name of the server host key algorithm that relies on SHA2-512 and is supported by MACHINE_IP?
+rsa-sha2-512
+
+Task 5
+
+What parameter is used to save the output in a greppable format? Write with a dash (-).
+-oG
+
+Is it possible to save Nmap output in XML format (yea/nay)?
+yea
+
+
+
+
+
+
+
+
+
